@@ -6,6 +6,4 @@ and tested on Fedora 25.  Please see src/my_predictor.h for my implementation.
 Please see 
 V. Uzelac and A. Milenkovic, "Experiment flows and microbenchmarks for reverse engineering of branch predictor structures," 2009 IEEE International Symposium on Performance Analysis of Systems and Software, Boston, MA, 2009, pp. 207-217.
 doi: 10.1109/ISPASS.2009.4919652
-keywords: {cache storage;optimising compilers;reverse engineering;software architecture;software performance evaluation;architecture-aware compiler optimization;branch address index;branch predictor structure;cache-like branch target buffer;experiment flow;microbenchmark;program path information;program performance improvement;reverse engineering;Clocks;Hardware;Hazards;History;Interference;Microprocessors;Optimizing compilers;Pipelines;Program processors;Reverse engineering},
-URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4919652&isnumber=4919623 
 for design of Bimodal and Global Predictors.
