@@ -165,7 +165,7 @@ public:
 		// PIR[14:0] = (PIR[12:0]<<2) xor (cbt * IP[18:4] | ibt * IP[18:10]+TA[5:0]) 	
 		pir = ((pir & pir_ini) << 2) ^ ((BR_CONDITIONAL*((bi.address & pir_IP_cbt) >> 5)) | (BR_INDIRECT*(((bi.address & pir_IP_ibt)>>4) + (target & TA_ibt))));	 
 		
-		// updates FSM at correct index (credit code to whomever wrote the gshare update from above)
+		// updates FSM at correct index (credit code to whomever wrote the given gshare update from above)
 		if (bi.br_flags & BR_CONDITIONAL) {
 			//global FSMs
 			unsigned char *g = &gtable[((pm_update*)u)->gtag][((pm_update*)u)->gindex];
